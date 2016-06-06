@@ -1,24 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package csvupdater;
-
-import controller.Database;
-import controller.UpdateButton;
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.geometry.Insets;
-import javafx.geometry.Pos;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.GridPane;
-import javafx.scene.layout.Pane;
-import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 import view.Main;
 
 /**
@@ -26,7 +8,7 @@ import view.Main;
  * values.
  * 
  * @author Zach Larson
- * @version 0.1
+ * @version 0.11
  */
 public class ApplicationStart extends Application {
     
@@ -36,12 +18,8 @@ public class ApplicationStart extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-    
     @Override
     public void start(Stage primaryStage) {
         Main.Display(primaryStage);
     }
-
-    
-    
 }
